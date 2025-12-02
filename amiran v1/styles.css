@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first{
+  width: 100%;
+  display: flex;
+  background-color: gray;
+  gap: 300px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.mainText {
+  height: 912px;
+  background-color: white;
+  margin-top: 36px;
+  margin-right: 70px;
+}
+
+.mainText h1 {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.image {
+  margin-top: 36px;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.discoveryBox {
+  background-color: aqua;
+  height: 269.8px;
+  width: 418px;
+  margin-top: 200px;
+  display: flex;
+  margin-right: 100px;
+  flex-direction: column;
+}
+
+.discoveryText p {
+  margin: 50px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.discoveryButton button {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-style: solid;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-left: 10px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+nav {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  height: 70px;
+  justify-content: space-around;
+}
+
+.buttons p {
+  justify-content: center;
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px;
+  display: flex;
+}
+.navTitle p {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.second {
+  height: 899px;
+  background-color: yellowgreen;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-width: 813px;
+}
+
+.anotherHalf {
+  width: 50%;
+  height: 899px;
+  display: flex;
+  justify-content: center;
+}
+.imageFromN2 {
+}
+
+.WashPic img {
+  width: 475px;
+  height: 312px;
+  margin-left: 100px;
+  margin-bottom: -500px;
+}
+.PipePic img {
+  width: 675px;
+  height: 739px;
+  margin-right: 130px;
+  margin: 50px;
+  margin-top: 90px;
+  min-width: 268px;
+  flex-wrap: wrap;
+}
+
+.onehalf {
+  width: 50%;
+  align-items: center;
+}
+
+.textFromN2 p {
+  font-size: 18px;
+  margin-left: 100px;
+  font-family: sans-serif;
+}
+
+.textFromN2 h1 {
+  margin-left: 100px;
+  font-size: 62px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.textFromN2 {
+  margin-bottom: 250px;
+  margin-top: -250px;
+}
+
+.middle {
+  height: 989.8px;
+  width: 100%;
+  background-color: gold;
+  display: flex;
+  justify-content: end;
+}
+.title {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.title span {
+  font-size: 62px;
+}
+
+.fourbrother {
+  margin-top: 180px;
+  width: 100%;
+  height: 749.8px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  padding: 60px 0;
+  margin-right: 200px;
+}
+
+.fourbrother-grid {
+  display: grid;
+  grid-template-columns: repeat(2fr 1fr);
+  gap: 200px;
+  width: 70%;
+  grid-template-rows: 2fr;
+}
+
+.Repairs h2 {
+  font-size: 40px;
+}
+
+.installations h2 {
+  font-size: 40px;
+}
+
+.Maintenance h2 {
+  font-size: 40px;
+}
+
+.inspections h2 {
+  font-size: 40px;
+}
+
+.Repairs p {
+  font-family: sans-serif;
+}
+
+.installations p {
+  font-family: sans-serif;
+}
+
+.Maintenance p {
+  font-family: sans-serif;
+}
+
+.inspections p {
+  font-family: sans-serif;
+}
+
+.partoftestimonials {
+  height: 757px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+}
+.partoftestimonials p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.Tonehalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 100px;
+  height: 757px;
+  width: 50%;
+}
+.Tonehalf p {
+  margin-top: 50px;
+}
+
+.TsecondP {
+  margin-top: 200px;
+}
+.TthirdP {
+  margin-top: -300px;
+}
+
+.Tsecondhalf {
+  display: flex;
+  margin-left: 50%;
+
+  height: 757px;
+  width: 50%;
+}
+
+.Ttitle h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.FAQS {
+  height: 983px;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 62px;
+}
+
+.FTS {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 100px;
+  padding: 30px 30px;
+}
+
+.FN2 {
+  height: 100%;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.firstTI,
+.SecondTI,
+.thirdTI {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.firstTI p,
+.SecondTI p,
+.thirdTI p {
+  width: 500px;
+}
+.longLine {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(79, 75, 75);
+}
+.FN1 {
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+/* .Ftitle{
+        font-size: 62px;
+        font-family: sans-serif;
+    }
+
+    .secondTE{
+        margin-top: 300px;
+    }
+    .thirdTE{
+        margin-top: 300px;
+    }
+
+    .SecondTI{
+        margin-top: 180px;
+    }
+
+    .thirdTI{
+        margin-top: 188px;
+    } */
+
+   .contactus{
+    height: 904px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 500px;
+
+   }
+   .cotitle{
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+    font-family: sans-serif;
+     }
+   .register{
+    
+    display: flex;
+    flex-direction: column;
+
+    
+   }
+
+   .register label{
+    font-size: 18px;
+    font-family: sans-serif;
+   }
+   .cotitle h2{
+    font-size: 62px;
+   } 
+
+   .subittionbutton button{
+    margin-top: 50px;
+    width: 500px;
+    border-bottom-left-radius: 100px; 
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+   }
+
+
+  .N1footer{
+    background-color: bisque;
+    height: 570px;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+  }
+  
+  .FN1half{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+     margin-left: 100px;
+  }
+  .FN2half{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-left: 100px;
+  }
+
+
+  @media .first {
+    
+    
+    
+    {min-width:809px ;}
+  } 
+  
