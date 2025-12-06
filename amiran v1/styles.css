@@ -33,7 +33,9 @@
   margin-left: 10px;
   width: 300px;
 }
-
+.image img{
+  object-fit: cover;
+}
 .discoveryBox {
   background-color: aqua;
   height: 269.8px;
@@ -68,6 +70,10 @@ button {
   display: flex;
   justify-content: center;
   position: absolute;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 nav {
@@ -113,6 +119,7 @@ nav {
   height: 312px;
   margin-left: 100px;
   margin-bottom: -500px;
+  object-fit: cover;
 }
 .PipePic img {
   width: 675px;
@@ -122,6 +129,7 @@ nav {
   margin-top: 90px;
   min-width: 268px;
   flex-wrap: wrap;
+  object-fit: cover;
 }
 
 .onehalf {
