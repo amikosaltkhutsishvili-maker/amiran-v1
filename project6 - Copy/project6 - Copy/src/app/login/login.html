@@ -1,0 +1,58 @@
+<p>login works!</p>
+
+<!-- template driven form
+reactive form   (fbgroup) -->
+
+<form action="" #myForm="ngForm" (ngSubmit)="login(myForm)">
+  <input 
+  #email="ngModel"
+  type="email" 
+  [(ngModel)]="loginUser.email" 
+  name="email" 
+  ngModel 
+  email 
+  required />
+
+  @if(email.invalid && email.touched){
+    <p style="color:red">email is not valid</p>
+  }
+  <input
+
+  #password="ngModel"
+    type="password"
+    [(ngModel)]="loginUser.password"
+    name="password"
+    ngModel
+    required
+    minlength="6"
+    pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[A-Za-z\d@.]{6,}$"
+
+  />
+  @if(password.invalid && password.touched && password.dirty ){
+   
+    @if(password.errors?.['minlength']){
+      <p style="color:red">password is not long enough</p>
+    }
+    @else {
+        <p style="color:red">password is not valid pattern</p>
+    }
+   
+  }
+   
+
+
+
+  <button [disabled]="myForm.invalid">login</button>
+</form>
+
+<!-- {
+  email : fdgghg,
+  password : fdfhhg
+} -->
+
+
+
+
+
+<!-- 
+create regex pattern for paswrod one capital letter one lower letter one digit and symbols @ . -->
